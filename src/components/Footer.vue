@@ -15,9 +15,9 @@
         </b-col>
         <b-col class="text-col" xs="12" sm="6" md="2" lg="2"></b-col>
         <b-col class="social-col" xs="12" sm="6" md="2" lg="2">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
+            <i style="padding-right: '7px';" class="fab fa-2x fa-facebook"></i>
+            <i style="padding-right: '7px';" class="fab fa-2x fa-twitter"></i>
+            <i class="fab fa-2x fa-instagram"></i>
         </b-col>
     </b-row>
 </b-container>
@@ -36,3 +36,39 @@ export default {
 
 }
 </script>
+
+<style>
+.footer-section {
+    padding: 5% 7%;
+    text-align: center;
+    background-color: #9fabb2;
+}
+
+.footer-section .row-footer .img-col img {
+    margin-top: 10px;
+    width: 70px;
+}
+
+.footer-section .row-footer .social-col i:hover {
+    cursor: pointer !important;
+    transition: all 0.3s ease;
+    color: #26baa4 !important;
+}
+
+@media screen and (min-width: 756px) {
+    .footer-section .row-footer .text-col {
+        text-align: start !important;
+    }
+}
+
+.footer-section .row-footer .text-col p {
+    color: #4c545d;
+    font-size: 15px;
+}
+
+.footer-section .row-footer .text-col p:hover {
+    transition: all 0.3s ease;
+    color: #26baa4;
+    cursor: pointer;
+}
+</style>
