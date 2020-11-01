@@ -43,3 +43,31 @@ export default {
     }
 }
 </script>
+
+<style>
+.features-section {
+    text-align: center;
+    padding: 5% 7%;
+}
+
+.features-section h2 {
+    font-size: 30px;
+}
+
+.features-section p {
+    font-size: 16px;
+    color: #9fabb2;
+    margin-bottom: 60px;
+}
+
+.features-section .row-feat h4 {
+    font-size: 20px;
+}
+
+.features-section .row-feat p {
+    font-size: 16px;
+    color: #9fabb2;
+    padding: 0 15%;
+    margin-bottom: 60px;
+}
+</style>
