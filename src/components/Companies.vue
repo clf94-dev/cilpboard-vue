@@ -15,7 +15,7 @@
                 <img :src="microsoft" alt="Microsoft">
             </b-col>
             <b-col class="img-col" xs="12" sm="6" md="2" lg="2">
-                <img :src="vector" alt="Vector">
+                <img :src="vector" alt="Vector Graphics">
             </b-col>
         </b-row>
     </b-container>
@@ -36,3 +36,27 @@ export default {
     }
 }
 </script>
+
+<style>
+.companies-section {
+    padding: 5% 7% 5% 10%;
+    text-align: center;
+}
+
+.companies-section .img-col {
+
+    margin: 0 20px 20px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .companies-section .img-col {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .companies-section .img-col img {
+        width: 75%;
+    }
+}
+</style>
