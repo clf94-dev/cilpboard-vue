@@ -131,8 +131,8 @@ export default {
 }
 
 @media screen and (min-width: 756px) {
-    .middle-section .row-middle .text-col .info-card p {
-        padding-right: 18% !important;
+    .info-card p {
+        padding-right: 35% !important;
     }
 }
 </style>
