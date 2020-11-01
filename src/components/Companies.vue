@@ -2,19 +2,19 @@
 <div>
     <b-container fluid class="companies-section">
         <b-row>
-            <b-col class="img-col" xs="12" sm="6" md="2" lg="2">
+            <b-col class="img-col" xs="12" sm="6" md="2" lg="2" data-aos='fade-up' data-aos-delay="100">
                 <img :src="google" alt="Google">
             </b-col>
-            <b-col class="img-col" xs="12" sm="6" md="2" lg="2">
+            <b-col class="img-col" xs="12" sm="6" md="2" lg="2" data-aos='fade-up' data-aos-delay="200">
                 <img :src="hp" alt="HP">
             </b-col>
-            <b-col class="img-col" xs="12" sm="6" md="2" lg="2">
+            <b-col class="img-col" xs="12" sm="6" md="2" lg="2" data-aos='fade-up' data-aos-delay="300">
                 <img :src="ibm" alt="IBM">
             </b-col>
-            <b-col class="img-col" xs="12" sm="6" md="2" lg="2">
+            <b-col class="img-col" xs="12" sm="6" md="2" lg="2" data-aos='fade-up' data-aos-delay="400">
                 <img :src="microsoft" alt="Microsoft">
             </b-col>
-            <b-col class="img-col" xs="12" sm="6" md="2" lg="2">
+            <b-col class="img-col" xs="12" sm="6" md="2" lg="2" data-aos='fade-up' data-aos-delay="500">
                 <img :src="vector" alt="Vector Graphics">
             </b-col>
         </b-row>
