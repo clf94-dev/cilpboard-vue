@@ -1,22 +1,27 @@
 <template>
 <div>
-    <v-container grid-list-md>
+    <b-container fluid>
         <div class="intro-middle">
             <h2>Keep track of your snippets</h2>
             <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
         </div>
-        <v-row class="row-middle">
-            <v-col cols=12 sm6 md6 lg='6'>
+        <b-row class="row-middle">
+            <b-col xs="12" sm="6" md="6" lg='6'>
                 <img :src="desktopImg" alt="computer">
-            </v-col>
-            <v-col cols=12 sm6 md6 lg='6'>
+            </b-col>
+            <b-col xs="12" sm="6" md="6" lg='6'>
 
                 <h3>hola</h3>
                 <p>texto</p>
 
-            </v-col>
-        </v-row>
-    </v-container>
+            </b-col>
+        </b-row>
+        <div class="intro-middle">
+            <h2>Access Clipboard anywhere</h2>
+            <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+            <img :src="devicesImg" alt="devices">
+        </div>
+    </b-container>
 </div>
 </template>
 
@@ -25,7 +30,8 @@ export default {
     name: 'Middle',
     data() {
         return {
-            desktopImg: require("@/assets/images/image-computer.png")
+            desktopImg: require("@/assets/images/image-computer.png"),
+            devicesImg: require("@/assets/images/image-devices.png")
         }
     }
 }
