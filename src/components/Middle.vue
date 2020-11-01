@@ -1,6 +1,6 @@
 <template>
 <div>
-    <b-container fluid>
+    <b-container fluid class="middle-section">
         <div class="intro-middle">
             <h2>Keep track of your snippets</h2>
             <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
@@ -36,3 +36,84 @@ export default {
     }
 }
 </script>
+
+<style>
+.middle-section {
+    padding: 5% 7%;
+}
+
+.middle-section .intro-middle {
+    text-align: center;
+}
+
+.middle-section .intro-middle h2 {
+    font-size: 30px;
+}
+
+.middle-section .intro-middle p {
+    font-size: 16px;
+    color: #9fabb2;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 756px) {
+    .middle-section .intro-middle p {
+        padding: 0 17%;
+    }
+}
+
+.middle-section .intro-middle img {
+    width: 100%;
+}
+
+@media screen and (min-width: 756px) {
+    .middle-section .intro-middle img {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 756px) {
+    .middle-section .row-middle {
+        margin-bottom: 60px;
+    }
+}
+
+.middle-section .row-middle .img-col img {
+    width: 100%;
+}
+
+@media screen and (min-width: 756px) {
+    .middle-section .row-middle .img-col img {
+        position: relative;
+        left: -17%;
+    }
+}
+
+.middle-section .row-middle .text-col {
+    padding: 2%;
+}
+
+@media screen and (max-width: 756px) {
+    .middle-section .row-middle .text-col {
+        text-align: center;
+        margin-bottom: 120px;
+    }
+}
+
+.middle-section .row-middle .text-col .info-card h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.middle-section .row-middle .text-col .info-card p {
+    font-size: 16px;
+    color: #9fabb2;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 756px) {
+    .middle-section .row-middle .text-col .info-card p {
+        padding-right: 18%;
+    }
+}
+</style>
