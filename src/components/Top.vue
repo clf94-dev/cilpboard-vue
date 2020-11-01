@@ -48,6 +48,12 @@ export default {
     padding: 0 25%;
 }
 
+@media screen and (max-width:600px) {
+    .top-section p {
+        padding: 0 5% !important;
+    }
+}
+
 .top-section .btn {
     height: 50px;
     width: 100%;
