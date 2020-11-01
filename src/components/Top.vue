@@ -1,12 +1,12 @@
 <template>
 <div>
     <img class='backgroundTop' :src="backTop" :srcset="`${backTop}  756w, ${backTopM} 400w`" alt="background">
-    <div class='top-section'>
+    <div class='top-section' data-aos="fade-up" data-aos-delay="100">
         <img :src="logo" alt="clipboard logo">
         <h1>A history of everything you copy</h1>
         <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-        <button class='btn green-btn'>Download for iOS</button>
-        <button class='btn blue-btn'>Download for Mac</button>
+        <button class='btn green-btn' data-aos="fade-right" data-aos-delay="200">Download for iOS</button>
+        <button class='btn blue-btn' data-aos="fade-left" data-aos-delay="200">Download for Mac</button>
     </div>
 </div>
 </template>
@@ -55,6 +55,7 @@ export default {
 }
 
 .top-section .btn {
+
     height: 50px;
     width: 100%;
     color: white;
@@ -72,7 +73,7 @@ export default {
 
 @media screen and (min-width: 756px) {
     .top-section .btn {
-        margin: 3% 5%;
+        margin: 1.5% 5% 3%;
     }
 }
 
