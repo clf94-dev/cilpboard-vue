@@ -1,9 +1,9 @@
 <template>
 <div class="cta-section">
-    <h2>Clipboard for iOS and Mac OS</h2>
-    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
-    <button class='btn green-btn'>Download for iOS</button>
-    <button class='btn blue-btn'>Download for Mac</button>
+    <h2 data-aos="fade-up" data-aos-delay="100">Clipboard for iOS and Mac OS</h2>
+    <p data-aos="fade-up" data-aos-delay="200">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+    <button data-aos="fade-right" data-aos-delay="300" class='btn green-btn'>Download for iOS</button>
+    <button data-aos="fade-left" data-aos-delay="300" class='btn blue-btn'>Download for Mac</button>
 
 </div>
 </template>
@@ -66,7 +66,7 @@ export default {
 
 @media screen and (min-width: 756px) {
     .cta-section .btn {
-        margin: 3% 4%;
+        margin: 1.5% 4% 3%;
     }
 }
 
