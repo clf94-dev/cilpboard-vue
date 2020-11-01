@@ -1,28 +1,32 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div class="home">
+    <Top></Top>
+    <Middle></Middle>
+    <Features></Features>
+    <Companies></Companies>
+    <Cta></Cta>
+    <Footer></Footer>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// @ is an alias to /src
+import Top from '@/components/Top.vue';
+import Middle from '@/components/Middle.vue';
+import Features from '@/components/Features.vue';
+import Companies from '@/components/Companies.vue';
+import Cta from '@/components/Cta.vue';
+import Footer from '@/components/Footer.vue';
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    name: 'App',
+    components: {
+        Top,
+        Middle,
+        Features,
+        Companies,
+        Cta,
+        Footer
+
+    }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
