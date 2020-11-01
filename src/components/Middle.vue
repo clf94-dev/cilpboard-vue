@@ -2,14 +2,14 @@
 <div>
     <b-container fluid class="middle-section">
         <div class="intro-middle">
-            <h2>Keep track of your snippets</h2>
-            <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+            <h2 data-aos="fade-right" data-aos-delay="400">Keep track of your snippets</h2>
+            <p data-aos="fade-right" data-aos-delay="450">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
         </div>
         <b-row class="row-middle">
-            <b-col xs="12" sm="6" md="6" lg='6' class="img-col">
+            <b-col xs="12" sm="6" md="6" lg='6' class="img-col" data-aos='fade-right' data-aos-delay="550">
                 <img :src="desktopImg" alt="computer">
             </b-col>
-            <b-col class="text-col" xs="12" sm="6" md="6" lg='6'>
+            <b-col class="text-col" xs="12" sm="6" md="6" lg='6' data-aos='fade-left' data-aos-delay="650">
                 <div class="info-card" v-for="data of info" v-bind:key="data.title">
 
                     <h3>{{data.title}}</h3>
@@ -19,9 +19,9 @@
             </b-col>
         </b-row>
         <div class="intro-middle">
-            <h2>Access Clipboard anywhere</h2>
-            <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
-            <img :src="devicesImg" alt="devices">
+            <h2 data-aos="fade-left" data-aos-delay="100">Access Clipboard anywhere</h2>
+            <p data-aos="fade-left" data-aos-delay="200">Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+            <img :src="devicesImg" alt="devices" data-aos="fade-up" data-aos-delay="300" />
         </div>
     </b-container>
 </div>
